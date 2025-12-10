@@ -1,0 +1,35 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "solidity.packageDependencies": [
+    {
+      "name": "@fhevm/solidity",
+      "version": "0.3.0"
+    },
+    {
+      "name": "@openzeppelin/contracts",
+      "version": "5.0.1"
+    }
+  ],
+  "solidity.remappings": [
+    "@fhevm/solidity/=node_modules/@fhevm/solidity/",
+    "@openzeppelin/=node_modules/@openzeppelin/"
+  ],
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/artifacts": true,
+    "**/cache": true,
+    "**/coverage": true,
+    "**/dist": true
+  }
+}

@@ -1,1 +1,11 @@
-
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "juanblanco.solidity",
+    "ms-vscode.makefile-tools",
+    "eamodio.gitlens",
+    "github.copilot",
+    "ms-playwright.test-explorer"
+  ]
+}
