@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+artifacts/
+cache/
+coverage/
+deployments/
+typechain-types/
+*.min.js
+.hardhat/
