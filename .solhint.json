@@ -1,0 +1,20 @@
+{
+  "extends": "solhint:recommended",
+  "plugins": ["prettier"],
+  "rules": {
+    "code-complexity": ["warning", 7],
+    "compiler-version": ["warning", "^0.8.24"],
+    "const-name-snakecase": "off",
+    "contract-name-camelcase": "error",
+    "event-name-camelcase": "error",
+    "func-name-mixedcase": "error",
+    "function-max-lines": ["warning", 50],
+    "line-length": ["warning", 120],
+    "no-empty-blocks": "warning",
+    "not-rely-on-time": "warning",
+    "ordering": "warning",
+    "private-vars-leading-underscore": "error",
+    "reason-string": ["warning", { "minLength": 10 }],
+    "todo": "note"
+  }
+}
