@@ -1,0 +1,13 @@
+semi: true
+singleQuote: false
+tabWidth: 2
+useTabs: false
+printWidth: 100
+arrowParens: always
+trailingComma: es5
+overrides:
+  - files: '*.sol'
+    options:
+      parser: solidity-parse
+      semi: true
+      singleQuote: false
