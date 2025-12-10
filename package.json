@@ -1,0 +1,72 @@
+{
+  "name": "encrypted-inventory-management",
+  "version": "1.0.0",
+  "description": "A production-grade FHE-enabled smart contract example for confidential inventory management using FHEVM",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "lint": "eslint . --ext .ts,.sol && solhint 'contracts/**/*.sol'",
+    "lint:fix": "eslint . --ext .ts,.sol --fix",
+    "format": "prettier --write 'contracts/**/*.sol' 'test/**/*.ts' 'tasks/**/*.ts'",
+    "clean": "hardhat clean",
+    "deploy:local": "hardhat deploy --network localhost",
+    "deploy:sepolia": "hardhat deploy --network sepolia",
+    "verify": "hardhat verify --network sepolia",
+    "accounts": "hardhat accounts",
+    "node": "hardhat node",
+    "docs:generate": "ts-node scripts/generate-docs.ts",
+    "example:create": "ts-node scripts/create-example.ts"
+  },
+  "keywords": [
+    "fhevm",
+    "fhe",
+    "fully-homomorphic-encryption",
+    "smart-contracts",
+    "solidity",
+    "hardhat",
+    "privacy",
+    "encryption",
+    "inventory-management",
+    "confidential-computing",
+    "ethereum"
+  ],
+  "author": "FHEVM Developer Community",
+  "license": "BSD-3-Clause-Clear",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@typechain/ethers-v6": "^11.1.2",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "hardhat": "^2.19.4",
+    "hardhat-deploy": "^0.11.45",
+    "hardhat-gas-reporter": "^1.0.9",
+    "mocha": "^10.2.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-solidity": "^1.2.0",
+    "solhint": "^4.0.0",
+    "solidity-coverage": "^0.8.5",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.3.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/hardhat-upgrades": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
