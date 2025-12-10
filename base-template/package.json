@@ -1,0 +1,25 @@
+{
+  "name": "fhevm-example-base-template",
+  "version": "1.0.0",
+  "description": "Base Hardhat template for FHEVM examples",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat deploy --network sepolia",
+    "verify": "hardhat verify --network sepolia"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.3.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "ethers": "^6.10.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.10",
+    "hardhat": "^2.19.4",
+    "hardhat-deploy": "^0.11.45",
+    "typescript": "^5.3.3"
+  }
+}
