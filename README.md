@@ -145,7 +145,7 @@ SecretInventoryManagement/
 │   └── COMPLETION_SUMMARY         # Final verification summary
 │
 └── 🎥 MEDIA ASSETS
-    ├── Live Demo.mp4
+    ├── comprehensive test suite.mp4
     ├── public/ (Web UI files)
     └── Transaction.png
 ```
