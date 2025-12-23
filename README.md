@@ -21,7 +21,7 @@ This repository serves as a complete FHEVM example hub implementation containing
 - **Concept Guides**: 4 deep-dive guides on access control, encryption, input proofs, and handles
 - **Video Materials**: One-minute video script with timing and separate dialogue file
 
-[comprehensive test suite.mp4](https://streamable.com/brgc86)
+[comprehensive test suite.mp4](https://youtu.be/nNy9wPP9O3w)
 
 [Demo](https://fhevm-example-hub-sigma.vercel.app/)
 
